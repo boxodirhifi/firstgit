@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+header{
+    background: url(/foto/pexels.jpg) center / cover no-repeat fixed;
+    height: 100vh;
+}
+
+.cons{
+    width: 100%;
+    background-color: rgba(46, 46, 46, 0.849);
+}
+
+.nav{
+    margin: auto;
+    width: 1340px;
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.849);
+    z-index: 1;
+    font-size: x-large;
+    height: 80px;
+}
+.nav .logo{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+.logo a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 3px 20px;
+    padding-top: 5px;
+    font-size: 26px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #d3cfcf;
+}
+.nav ul li .active{
+    color: rgb(41, 105, 156);
+}
+.nav ul li .active:hover{
+    color: rgb(32, 86, 131);
+}
+.nav ul li a:hover{
+    color: #fff;
+    transition: ease-in-out all .2s;
+}
+
+.head-title{
+    margin: 170px auto;
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.form{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #f0f0f0;
+    width: 550px;
+    height: 43px;
+    padding: 0 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.form input{
+    padding: 3px;
+    width: 290px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* ______________________________________________________
+Bahodir717 (End of navbar)
+__________________________________________________________ */
+
+.title{
+    text-align: center;
+    margin: 25px;
+}
+.title-hr{
+    width: 60px;
+    height: 3px;
+    background-color: goldenrod;
+    margin: 5px auto;
+}
+
+/* _____________________________________________________----
+Pristupit rabote
+________________________________________________________---- */
+
+.card-columns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center !important;
+}
+
+.cards .card{
+    border-radius: 15px;
+}
+
+/* ______________________________________________________________
+Yana yangi section
+______________________--______________________________________- */
+
+.some .card{
+    margin: 40px 0;
+    box-shadow: 0 0 20px grey;
+}
+
+.some .card:hover{
+    box-shadow: 0 0 30px grey;
+    transition: all ease-in-out .2s;
+}
+
+/* _________________________________________________________-
+ Info blog
+____________________________________________________________ */
+
+.info .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+.info .card{
+    border: none;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.info-img img{
+    box-shadow: 0 0 30px rgb(88, 88, 88);
+}
+
+.info-img img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgb(65, 62, 62);
+    transition: all ease-in-out .3s 
+}
+
+/* ____________________________________________________---
+Bahodir717
+_____________________________________________________________----- */
+
+.banner{
+    height: 100vh;
+    background: rgb(0, 0, 0) url(foto/James\ Bond.jpg) center / cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3px 20px;
+    height: 280px;
+    border-radius: 9px;
+    margin-top: 70px;
+}
+.banner-img{
+    font-size: 50px;
+}
+
+.banner .card{
+    margin-top: 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+.banner .card .card-body{
+    border-radius: 10px;
+}
+
+/* __________________________________________________________-
+Boxodir Zokirov
+______________________________________________________________ */
+
+.turist{
+    box-sizing: border-box;
+}
+.turist-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.turist .turist-blog{
+    display: flex;
+}
+.turist-blog .turist-text{
+    margin-right: 20px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    box-shadow: 0 0 20px grey;
+    
+}
+.text-title{
+    padding: 5px;
+}
+.turist-blog .turist-text1{
+    margin-right: 20px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px grey;
+}
+.text-title1{
+    padding: 5px;
+}
+
+.turist-blog1{
+    display: block;
+}
+
+.blog-text{
+    box-shadow: 0 0 20px grey;
+    margin-bottom: 20px;
+}
+.blog-text1{
+    box-shadow: 0 0 20px grey;
+    text-align: right;
+}
+
+/* _____________________________________________________-
+Yangi yangi narsala
+________________________________________________________- */
+
+.address .address-title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.address-title select{
+    font-size: x-large;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+/* _________________________________________________________-
+Noting
+_________________________________________________________-- */
+
+.about{
+    margin-bottom: 35px;
+}
+.about .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .card{
+    border: none;
+}
+
+/* _______________________________________________________
+Zokirov Boxodir
+_______________________________________________________ */
+
+footer{
+    height: 450px;
+    background-color: rgb(44, 44, 44);
+}
+
+.footer{
+    padding: 90px 0;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.socials a{
+    margin-top: 120px;
+    border-radius: 50%;
+    font-size: x-large;
+    margin: 6px;
+    color: beige;
+}
+.socials a:hover{
+    color: grey;
+    transition: .2s;
+}
+
+.menu li{
+    font-size: 25px;
+    list-style: none;
+}
+
+.other li{
+    font-size: 25px;
+    list-style: none;
+}
+.menu li a, .other li a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.menu li a:hover, .other li a:hover{
+    color: grey;
+}
+
+.txt{
+    color: rgb(141, 138, 138);
+}
