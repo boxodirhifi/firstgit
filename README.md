@@ -25,6 +25,7 @@ text
 ├── tel.css      # Custom styles
 └── foto/        # Image collection
 
-📜 License
+
+License
 
 MIT
